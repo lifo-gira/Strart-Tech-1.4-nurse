@@ -2,40 +2,11 @@ import React, { useState, useEffect } from "react";
 import {
   Card,
   Typography,
-  List,
-  ListItem,
-  ListItemPrefix,
-  CardHeader,
-  CardBody,
   Avatar,
-  Drawer,
 } from "@material-tailwind/react";
 import {
-  Cog6ToothIcon,
-  PowerIcon,
-  Squares2X2Icon,
-  ChartBarSquareIcon,
-  ClipboardDocumentIcon,
-  UserGroupIcon,
-  ChartBarIcon,
-  BellIcon,
-  ChevronRightIcon,
   ArrowUpRightIcon,
-  UserCircleIcon,
 } from "@heroicons/react/24/solid";
-import {
-  RadialBarChart,
-  RadialBar,
-  Legend,
-  ResponsiveContainer,
-  LineChart,
-  Line,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-} from "recharts";
-import SemiCircleProgressBar from "react-progressbar-semicircle";
 
 const Reportgen = () => {
   const patientdata = [
